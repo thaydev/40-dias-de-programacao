@@ -1,0 +1,11 @@
+package teste;
+
+public class Teste {
+public static void main(String[] args) {
+
+String nome = "dev/thay";
+String[] array = nome.split("/");
+
+System.out.println(array[0]);
+    }
+}
