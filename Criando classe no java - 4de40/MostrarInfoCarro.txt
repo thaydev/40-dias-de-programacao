@@ -1,0 +1,17 @@
+public class MostrarInfoCarro {
+
+public static void main(String[] args) {
+
+Carro carro = new Carro();
+
+carro.setChassi("FJADFJA12312312");
+carro.setNome("@dev.thay");
+carro.setPlaca("JJJ111");
+
+System.out.println("Chassi:"+carro.getChassi());
+System.out.println("nome:"+carro.getNome());
+System.out.println("placa:"+carro.getPlaca());
+
+}
+
+}
