@@ -1,0 +1,14 @@
+create database empresa;
+
+use empresa;
+
+CREATE TABLE Departamento(id int, descricao_departamento varchar(100));
+
+select * from Departamento;
+
+insert into Departamento(id, descricao_departamento) values (1,"financeiro");
+insert into Departamento(id, descricao_departamento) values (2,"desenvolvimento");
+
+update Departamento set descricao_departamento = "finan" where id=1;
+
+delete from Departamento where id=2;
